@@ -63,14 +63,16 @@ looks even remotely english by cross referencing nouns to anything found<br/>
 in the possible rendered Reversed Texts of the Guessing OTP Brute Force<br/>
 
 # ciphertext to break <br/>
+
 75362 52661 82846 57397<br/>
 USING OTP:<br/>
+Subtract<br/>
 77311 31456 69795 76193<br/>
-
- # Subtraction, Inverse Operations for deciphering, aka Linear Structuring<br/>
 =<br/>
 08051 21215 23151 81204<br/>
- H E  L L O  W O  R L D<br/>
+ H E  L L O  W O  R L D<br/> # Subtraction, Inverse Operations for deciphering, aka Linear Structuring<br/>
+
+
 ___________THE__REAL__TASK____________
 -Using The Knowledge Recieved from document at
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.391.364&rep=rep1&type=pdf
