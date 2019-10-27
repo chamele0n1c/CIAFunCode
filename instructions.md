@@ -70,7 +70,7 @@ Subtract<br/>
 77311 31456 69795 76193<br/>
 =<br/>
 08051 21215 23151 81204<br/>
- H E  L L O  W O  R L D<br/> # Subtraction, Inverse Operations for deciphering, aka Linear Structuring<br/>
+ H E  L L O  W O  R L D<br/> # Subtraction, Inverse Operations for deciphering, which forms the linear cipher structure<br/>
 
 
 ___________THE__REAL__TASK____________
