@@ -41,7 +41,7 @@ const letters = <br/>
 "Hello World"<br/>
 ="HELLOWORLD"<br/>
 HELLOWORLD<br/>
-	      H E  L L O  W O  R L D<br/>
+	     H E  L L O  W O  R L D<br/>
 preTEXT    : 08051 21215 23151 81204<br/>
 + | up and down<br/>
 OTP 	   : 77311 31456 69795 76193<br/>
@@ -56,21 +56,21 @@ Encrypting to ciphertext<br/>
 HELLOWORLD<br/>
 08051 21215 23151 81204<br/>
 
-This would either need preknowledge of the OTP for quick secure one time message
-But in the 21st century thats even debatable
-Becasue we can just BruteForce the OTP until we see a set of texts that
-looks even remotely english by cross referencing nouns to anything found
-in the possible rendered Reversed Texts of the Guessing OTP Brute Force
+This would either need preknowledge of the OTP for quick secure one time message<br/>
+But in the 21st century thats even debatable<br/>
+Becasue we can just BruteForce the OTP until we see a set of texts that<br/>
+looks even remotely english by cross referencing nouns to anything found<br/>
+in the possible rendered Reversed Texts of the Guessing OTP Brute Force<br/>
 
-# ciphertext to break 
-75362 52661 82846 57397
-USING OTP:
-77311 31456 69795 76193
+# ciphertext to break <br/>
+75362 52661 82846 57397<br/>
+USING OTP:<br/>
+77311 31456 69795 76193<br/>
 
-Subtraction, Inverse Operations for deciphering, aka Linear Structuring
-=
-08051 21215 23151 81204
-
+ # Subtraction, Inverse Operations for deciphering, aka Linear Structuring<br/>
+=<br/>
+08051 21215 23151 81204<br/>
+ H E  L L O  W O  R L D<br/>
 ___________THE__REAL__TASK____________
 -Using The Knowledge Recieved from document at
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.391.364&rep=rep1&type=pdf
