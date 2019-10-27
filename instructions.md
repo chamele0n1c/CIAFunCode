@@ -1,5 +1,5 @@
-using the OTP
-break the Message cipher text
+# using the OTP
+# break the Message cipher text
 
 cipher text is x char grouped in 5char cluster 
 broken by spaces and newlines it needs to be
@@ -7,7 +7,7 @@ broken using the one time pad scheme for messages
 if you analyze the code the actual OneTimePad method is
 As Follows:
 
-//GIVEN
+# //GIVEN
 const letters =
 {
 '01' : 'A',
@@ -37,7 +37,7 @@ const letters =
 '25' : 'Y',
 '26' : 'Z',
 }
-Encrypting to ciphertext
+# Encrypting to ciphertext
 "Hello World"
 ="HELLOWORLD"
 HELLOWORLD
@@ -62,7 +62,7 @@ Becasue we can just BruteForce the OTP until we see a set of texts that
 looks even remotely english by cross referencing nouns to anything found
 in the possible rendered Reversed Texts of the Guessing OTP Brute Force
 
-ciphertext to break 
+# ciphertext to break 
 75362 52661 82846 57397
 USING OTP:
 77311 31456 69795 76193
