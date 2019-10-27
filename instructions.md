@@ -1,62 +1,62 @@
-# using the OTP
-# break the Message cipher text
+# using the OTP<br/><br/>
+# break the Message cipher text<br/>
 
-cipher text is x char grouped in 5char cluster 
-broken by spaces and newlines it needs to be
-broken using the one time pad scheme for messages
-if you analyze the code the actual OneTimePad method is
-As Follows:
+cipher text is x char grouped in 5char cluster <br/>
+broken by spaces and newlines it needs to be <br/>
+broken using the one time pad scheme for messages <br/>
+if you analyze the code the actual OneTimePad method is <br/>
+As Follows: <br/>
 
-# //GIVEN
-const letters =
-{
-'01' : 'A',
-'02' : 'B',
-'03' : 'C',
-'04' : 'D',
-'05' : 'E',
-'06' : 'F',
-'07' : 'G',
-'08' : 'H',
-'09' : 'I',
-'10' : 'J',
-'11' : 'K',
-'12' : 'L',
-'13' : 'M',
-'14' : 'N',
-'15' : 'O',
-'16' : 'P',
-'17' : 'Q',
-'18' : 'R',
-'19' : 'S',
-'20' : 'T',
-'21' : 'U',
-'22' : 'V',
-'23' : 'W',
-'24' : 'X',
-'25' : 'Y',
-'26' : 'Z',
-}
-# Encrypting to ciphertext
-"Hello World"
-="HELLOWORLD"
-HELLOWORLD
-	      H E  L L O  W O  R L D
-preTEXT    : 08051 21215 23151 81204
-+ | up and down
-OTP 	   : 77311 31456 69795 76193
-=CIPHERTEXT: 75362 52661 82846 57397
+# //GIVEN <br/>
+const letters = <br/>
+{ <br/>
+'01' : 'A', <br/>
+'02' : 'B',<br/>
+'03' : 'C',<br/>
+'04' : 'D',<br/>
+'05' : 'E',<br/>
+'06' : 'F',<br/>
+'07' : 'G',<br/>
+'08' : 'H',<br/>
+'09' : 'I',<br/>
+'10' : 'J',<br/>
+'11' : 'K',<br/>
+'12' : 'L',<br/>
+'13' : 'M',<br/>
+'14' : 'N',<br/>
+'15' : 'O',<br/>
+'16' : 'P',<br/>
+'17' : 'Q',<br/>
+'18' : 'R',<br/>
+'19' : 'S',<br/>
+'20' : 'T',<br/>
+'21' : 'U',<br/>
+'22' : 'V',<br/>
+'23' : 'W',<br/>
+'24' : 'X',<br/>
+'25' : 'Y',<br/>
+'26' : 'Z',<br/>
+}<br/>
+# Encrypting to ciphertext<br/>
+"Hello World"<br/>
+="HELLOWORLD"<br/>
+HELLOWORLD<br/>
+	      H E  L L O  W O  R L D<br/>
+preTEXT    : 08051 21215 23151 81204<br/>
++ | up and down<br/>
+OTP 	   : 77311 31456 69795 76193<br/>
+=CIPHERTEXT: 75362 52661 82846 57397<br/>
+<br/>
+BREAK(decrypt) SAMPLE:<br/>
 
-BREAK(decrypt) SAMPLE:
+<br/>
+Encrypting to ciphertext<br/>
+"Hello World"<br/>
+="HELLOWORLD"<br/>
+HELLOWORLD<br/>
+08051 21215 23151 81204<br/>
 
-
-Encrypting to ciphertext
-"Hello World"
-="HELLOWORLD"
-HELLOWORLD
-08051 21215 23151 81204
-
-This would either need preknowledge of the OTP for quick secure comms
+This would either need preknowledge of the OTP for quick secure one time message
 But in the 21st century thats even debatable
 Becasue we can just BruteForce the OTP until we see a set of texts that
 looks even remotely english by cross referencing nouns to anything found
